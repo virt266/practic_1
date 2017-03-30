@@ -1,0 +1,116 @@
+body{
+	background: #000;
+	font-family: Tahoma, sans-serif;
+	color: #fff;
+}
+.wrapper{
+	width: 960px;
+	height: 883px;
+	background: #f9f9f9 url(../img/bg__img/bg__img.jpg);
+	margin: 0 auto;
+}
+.container{
+	margin: 0 auto;
+	padding: 57px 73px 0 73px;
+}
+img{
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+.content__memu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;	
+}
+.site__logo{
+	width: 263px;
+	height: 148px;
+	position: relative;
+	float: left;
+}
+.logo__text{
+	padding-top: 73px;
+	padding-bottom: 6px;
+	width: 263px;
+	height: 37px;
+}
+.logo__img{
+	width: 125px;
+	height: 147px;
+	position: absolute;
+	top: 0;
+	left: 142px;
+	z-index: 1;
+	opacity: 0.15;
+}
+.logo__slogan{
+	font-size: 12px;
+	line-height: 1.2;
+	color: #fff;
+	padding-left: 83px;
+	margin: 0;
+}
+.site__contact{
+	margin-top: 89px;
+	margin-left: 3px;
+	float: right;	
+	color: #fff;
+	font-size: 10px;
+	line-height: 1.2;
+}
+.site__contact p{
+	margin: 3px;
+}
+.content__menu__item{
+	width: 261px;
+	height: 178px;
+	border: 2px solid #ccc;
+	border-radius: 2px;
+	float: left;
+	margin-bottom: 65px;
+	cursor: pointer;
+}
+.content__menu__item:hover{
+	border: 2px solid #FF00AE;
+	border-radius: 2px;
+}
+.india{
+	background: #fff url(../img/list__item/india.jpg);
+	position: relative;
+}
+.india::before{
+	content: "india";
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.2;
+	position: absolute;
+	bottom: -25px;
+	left: 120px;
+}
+.nepal{
+	background: #fff url(../img/list__item/nepal.jpg);
+	margin: 0 9px;
+}
+.tibet{
+	background: #fff url(../img/list__item/tibet.jpg);
+}
+.bhutan{
+	background: #fff url(../img/list__item/bhutan.jpg);
+}
+.sri_lanka{
+	background: #fff url(../img/list__item/sri__lanka.jpg);
+	margin: 0 9px;
+}
+.maldives{
+	background: #fff url(../img/list__item/maldives.jpg);
+}
+.content__menu__item__text{
+	color: #fff;
+}
+.clearfix::after{
+	content:"";
+	display:table;
+	clear:both;
+}
