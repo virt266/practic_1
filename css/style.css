@@ -35,6 +35,7 @@ img{
 	padding-bottom: 6px;
 	width: 263px;
 	height: 37px;
+	z-index: 2;
 }
 .logo__img{
 	width: 125px;
@@ -49,7 +50,7 @@ img{
 	font-size: 12px;
 	line-height: 1.2;
 	color: #fff;
-	padding-left: 83px;
+	padding-left: 82px;
 	margin: 0;
 }
 .site__contact{
@@ -69,7 +70,7 @@ img{
 	border: 2px solid #ccc;
 	border-radius: 2px;
 	float: left;
-	margin-bottom: 65px;
+	margin-bottom: 68px;
 	cursor: pointer;
 }
 .content__menu__item:hover{
@@ -78,16 +79,14 @@ img{
 }
 .india{
 	background: #fff url(../img/list__item/india.jpg);
-	position: relative;
 }
-.india::before{
-	content: "india";
+.content__menu__item__title{
 	color: #fff;
 	font-size: 16px;
 	line-height: 1.2;
-	position: absolute;
-	bottom: -25px;
-	left: 120px;
+    margin-top: 180px;
+    text-align: center;
+    text-transform :capitalize;
 }
 .nepal{
 	background: #fff url(../img/list__item/nepal.jpg);
@@ -108,6 +107,19 @@ img{
 }
 .content__menu__item__text{
 	color: #fff;
+}
+.footer__title{
+	color: #fff;
+	font-size: 10px;
+	line-height: 1.2;
+	margin: 0;
+	text-align: center;
+}
+.footer__title__link{
+	color: #fff;
+	font-size: 10px;
+	line-height: 1.2;
+	text-decoration: none;
 }
 .clearfix::after{
 	content:"";
